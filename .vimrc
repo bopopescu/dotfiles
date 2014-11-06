@@ -9,5 +9,5 @@ set expandtab
 set softtabstop=4
 set shiftwidth=4
 filetype indent on
-" show tabs
+" show line endings (to detect trailing whitespace)
 set list
