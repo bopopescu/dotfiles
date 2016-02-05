@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ShpSync
+qgisMinimumVersion=2.12
+description=description
+version=0.6
+author=OpenGis.ch, carolinux
+email=info@opengis.ch
+
+about=Links an Excel (.xls) file to a Shapefile (or any other layer). For every row on the layer a row in the Excel file is created. Derived information like area or centroid can be added to the Excel row.
+
+tracker=https://github.com/opengisch/shpsync/issues
+repository=https://github.com/opengisch/shpsync
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=ff
+
+homepage=https://github.com/opengisch/shpsync
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
